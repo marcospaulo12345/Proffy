@@ -1,0 +1,34 @@
+import { StyleSheet } from "react-native";
+
+const styles = StyleSheet.create({
+    container: {
+        padding: 40,
+        backgroundColor: '#8257e5'
+    },
+
+    topBar: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between'
+    },
+    title: {
+        fontFamily: 'Archivo_700Bold',
+        color: '#fff',
+        fontSize: 24,
+        lineHeight: 32,
+        maxWidth: 180,
+        marginTop: 20
+    },
+    description: {
+        fontFamily: 'Archivo_400Regular',
+        color: '#fff',
+        top: 10
+    }, 
+    header: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between'
+    }
+});
+
+export default styles;
